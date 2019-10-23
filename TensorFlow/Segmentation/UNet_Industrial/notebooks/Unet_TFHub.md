@@ -9,7 +9,7 @@
 
 **Module URL:** [https://tfhub.dev/<publisher>/<model-handle>/<version>](https://tfhub.dev/<publisher>/<model-handle>/<version>)
 
-[![Open Colab notebook]](<!-- link to Colab goes here -->)
+[![Open Colab notebook]](https://colab.research.google.com/github/vinhngx/DeepLearningExamples/blob/vinhn_unet_industrial_demo/TensorFlow/Segmentation/UNet_Industrial/notebooks/Colab_UNet_Industrial_TF_TFHub_inference_demo.ipynb#scrollTo=fW0OKDzvmTbt)
 
 ## Qualitative Information
 
