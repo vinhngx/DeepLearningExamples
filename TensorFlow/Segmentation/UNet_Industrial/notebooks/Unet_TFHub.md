@@ -1,7 +1,7 @@
 # Module NVIDIA/Unet/1.0
 
 <!-- module-type:  -->
-<!-- network-architecture: Unet -->
+<!-- network-architecture: TinyUNet -->
 <!-- dataset: DAGM2007 -->
 <!-- language:  -->
 <!-- fine-tunable:  -->
@@ -13,15 +13,17 @@
 
 ## Qualitative Information
 
-This U-Net model is adapted from the original version of the [U-Net model](https://arxiv.org/abs/1505.04597) which is
+This U-Net model is adapted from the original version of the [U-Net model paper](https://arxiv.org/abs/1505.04597) which is
 a convolutional auto-encoder for 2D image segmentation. U-Net was first introduced by
 Olaf Ronneberger, Philip Fischer, and Thomas Brox in the paper:
 [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597).
 
+For further information on how this module was trained, see https://github.com/NVIDIA/DeepLearningExamples/tree/master/TensorFlow/Segmentation/UNet_Industrial.
+
 #### Model Details
-This module is based on a modified version of U-Net, called `TinyUNet` which performs efficiently and with very high accuracy
+This module is based on a modified version of `U-Net`, called `TinyUNet`, which performs efficiently and with very high accuracy
 on the industrial anomaly dataset [DAGM2007](https://resources.mpi-inf.mpg.de/conference/dagm/2007/prizes.html).
-*TinyUNet*, like the original *U-Net* is composed of two parts:
+`TinyUNet`, like the original `U-Net` is composed of two parts:
 - an encoding sub-network (left-side)
 - a decoding sub-network (right-side).
 
