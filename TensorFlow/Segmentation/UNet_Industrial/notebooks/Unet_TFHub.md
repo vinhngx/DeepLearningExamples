@@ -252,13 +252,14 @@ This UNet model was trained on the [Weakly Supervised Learning for Industrial Op
 	defend, and hold each Contributor harmless for any liability
 	incurred by, or claims asserted against, such Contributor by reason
 	of your accepting any such warranty or additional liability.
-10. You agree to defend, indemnify and hold harmless NVIDIA 
-Corporation and its affiliates, and their respective employees, 
-contractors, agents, officers, directors, and distributors from and 
-against any and all claims, liabilities, damages or costs arising 
-out of or related to Your use of the Work or Derivative Works 
-thereof. This License will be governed in all respects by the laws
- of the United States and of the State of Delaware, without 
-regard to conflicts of laws principles.
+	
+	10. You agree to defend, indemnify and hold harmless NVIDIA 
+	Corporation and its affiliates, and their respective employees, 
+	contractors, agents, officers, directors, and distributors from and 
+	against any and all claims, liabilities, damages or costs arising 
+	out of or related to Your use of the Work or Derivative Works 
+	thereof. This License will be governed in all respects by the laws
+	of the United States and of the State of Delaware, without 
+	regard to conflicts of laws principles.
 	
 	END OF TERMS AND CONDITIONS
