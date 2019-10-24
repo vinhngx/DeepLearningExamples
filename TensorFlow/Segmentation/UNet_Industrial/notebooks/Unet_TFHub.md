@@ -1,13 +1,13 @@
-# Module NVIDIA/Unet/1.0
+# Module nvidia/unet/class+1/1
 
 <!-- module-type:  -->
 <!-- network-architecture: TinyUNet -->
 <!-- dataset: DAGM2007 -->
 <!-- language:  -->
-<!-- fine-tunable:  -->
+<!-- fine-tunable: False -->
 <!-- format:  -->
 
-**Module URL:** [https://tfhub.dev/<publisher>/<model-handle>/<version>](https://tfhub.dev/<publisher>/<model-handle>/<version>)
+**Module URL:** [https://tfhub.dev/nvidia/unet/class+1/1](https://tfhub.dev/nvidia/unet/class+1/1)
 
 [![Open Colab notebook]](https://colab.research.google.com/github/vinhngx/DeepLearningExamples/blob/vinhn_unet_industrial_demo/TensorFlow/Segmentation/UNet_Industrial/notebooks/Colab_UNet_Industrial_TF_TFHub_inference_demo.ipynb#scrollTo=fW0OKDzvmTbt)
 
@@ -41,7 +41,7 @@ This model is suitable for prediction on test data similar to the [DAGM2007](htt
 
 ```
 import tensorflow_hub as hub
-module = hub.Module("NVIDIA/Unet/Class_1", trainable=False)
+module = hub.Module("https://tfhub.dev/nvidia/unet/class+1/1", trainable=False)
 
 # Load a test image
 import numpy as np
