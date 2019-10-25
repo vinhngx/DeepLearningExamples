@@ -1,4 +1,4 @@
-# Module nvidia/unet/class+1/1
+# Module nvidia/unet/class_1/1
 
 <!-- module-type:  -->
 <!-- network-architecture: TinyUNet -->
