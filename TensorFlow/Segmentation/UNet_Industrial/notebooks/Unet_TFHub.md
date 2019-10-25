@@ -7,7 +7,7 @@
 <!-- fine-tunable: False -->
 <!-- format:  -->
 
-**Module URL:** [https://tfhub.dev/nvidia/unet/class+1/1](https://tfhub.dev/nvidia/unet/class+1/1)
+**Module URL:** [https://tfhub.dev/nvidia/unet/class_1/1](https://tfhub.dev/nvidia/unet/class_1/1)
 
 [![Open Colab notebook]](https://colab.research.google.com/github/vinhngx/DeepLearningExamples/blob/vinhn_unet_industrial_demo/TensorFlow/Segmentation/UNet_Industrial/notebooks/Colab_UNet_Industrial_TF_TFHub_inference_demo.ipynb#scrollTo=fW0OKDzvmTbt)
 
@@ -41,7 +41,7 @@ This model is suitable for prediction on test data similar to the [DAGM2007](htt
 
 ```
 import tensorflow_hub as hub
-module = hub.Module("https://tfhub.dev/nvidia/unet/class+1/1", trainable=False)
+module = hub.Module("https://developer.download.nvidia.com/compute/redist/Binary_Files/unet_tfhub_modules/class_1/1.tar.gz", trainable=False)
 
 # Load a test image
 import numpy as np
