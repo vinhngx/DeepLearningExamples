@@ -41,7 +41,7 @@ This model is suitable for prediction on test data similar to the [DAGM2007](htt
 
 ```
 import tensorflow_hub as hub
-module = hub.Module("https://developer.download.nvidia.com/compute/redist/Binary_Files/unet_tfhub_modules/class_1/1.tar.gz", trainable=False)
+module = hub.Module("https://tfhub.dev/nvidia/unet/class_1/1", trainable=False)  # or class_2, class_3... for other UNet models
 
 # Load a test image
 import numpy as np
@@ -65,7 +65,7 @@ with tf.Session() as sess:
       
 ```
 
-See example Colab notebooks on NVIDIA Unet TF-Hub module [creation](https://colab.research.google.com/github/vinhngx/DeepLearningExamples/blob/vinhn_unet_industrial_demo/TensorFlow/Segmentation/UNet_Industrial/notebooks/Colab_UNet_Industrial_TF_TFHub_export.ipynb#scrollTo=HRQiqCSMAOZS) and [inference](https://colab.research.google.com/github/vinhngx/DeepLearningExamples/blob/vinhn_unet_industrial_demo/TensorFlow/Segmentation/UNet_Industrial/notebooks/Colab_UNet_Industrial_TF_TFHub_inference_demo.ipynb#scrollTo=Gwt7z7qdmTbW). 
+See example Colab notebooks on NVIDIA Unet TF-Hub module [creation](https://colab.research.google.com/github/NVIDIA/DeepLearningExamples/tree/master/TensorFlow/Segmentation/UNet_Industrial/notebooks/Colab_UNet_Industrial_TF_TFHub_export.ipynb) and [inference](https://colab.research.google.com/github/NVIDIA/DeepLearningExamples/tree/master/TensorFlow/Segmentation/UNet_Industrial/notebooks/Colab_UNet_Industrial_TF_TFHub_inference_demo.ipynb). 
 
 #### Training Data
 
