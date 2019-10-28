@@ -1,4 +1,4 @@
-# Module nvidia/unet/class_1/1
+# Module nvidia/unet/industrial/class_1/1
 
 <!-- module-type:  -->
 <!-- network-architecture: TinyUNet -->
@@ -7,9 +7,9 @@
 <!-- fine-tunable: False -->
 <!-- format:  -->
 
-**Module URL:** [https://tfhub.dev/nvidia/unet/class_1/1](https://tfhub.dev/nvidia/unet/class_1/1)
+**Module URL:** [https://tfhub.dev/nvidia/unet/industrial/class_1/1](https://tfhub.dev/nvidia/unet/industrial/class_1/1)
 
-[![Open Colab notebook]](https://colab.research.google.com/github/vinhngx/DeepLearningExamples/blob/vinhn_unet_industrial_demo/TensorFlow/Segmentation/UNet_Industrial/notebooks/Colab_UNet_Industrial_TF_TFHub_inference_demo.ipynb#scrollTo=fW0OKDzvmTbt)
+[![Open Colab notebook]](https://colab.research.google.com/github/NVIDIA/DeepLearningExamples/tree/master/TensorFlow/Segmentation/UNet_Industrial/notebooks/Colab_UNet_Industrial_TF_TFHub_inference_demo.ipynb)
 
 ## Qualitative Information
 
@@ -41,12 +41,13 @@ This model is suitable for prediction on test data similar to the [DAGM2007](htt
 
 ```
 import tensorflow_hub as hub
-module = hub.Module("https://tfhub.dev/nvidia/unet/class_1/1", trainable=False)  # or class_2, class_3... for other UNet models
+module = hub.Module("https://tfhub.dev/nvidia/unet/industrial/class_1/1", trainable=False)  # or class_2, class_3... for other UNet models
 
 # Load a test image
 import numpy as np
 import matplotlib.image as mpimg
 
+# See example Colab notebook below on dataset download
 img = mpimg.imread('./data/raw_images/public/Class1_def/1.png')
 
 # Image preprocessing
